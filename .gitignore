@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs and temporary files
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+# Datasets and exported models (large files stored locally)
+dataset/
+export_model/
+*.h5
+*.pb
