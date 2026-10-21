@@ -14,8 +14,18 @@ __pycache__/
 .vscode/
 .idea/
 
-# Datasets and exported models (large files stored locally)
-dataset/
-export_model/
+# Keep the directory structure while ignoring local data and generated models
+dataset/*
+!dataset/empty/
+!dataset/white_pawn/
+!dataset/black_pawn/
+dataset/empty/*
+!dataset/empty/.gitkeep
+dataset/white_pawn/*
+!dataset/white_pawn/.gitkeep
+dataset/black_pawn/*
+!dataset/black_pawn/.gitkeep
+export_model/*
+!export_model/.gitkeep
 *.h5
 *.pb
